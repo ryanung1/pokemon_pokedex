@@ -1,4 +1,7 @@
 <Project>
+  <ItemGroup>
+    <Compile Include="empty.cs"/>
+  </ItemGroup>
   <Target Name="Build">
     <Csc Sources="@(Compile)"/>
   </Target>
