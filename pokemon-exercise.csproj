@@ -1,8 +1,4 @@
 <Project>
-  <ItemGroup>
-    <Compile Include="index.html"/>
-    <Compile Include="index.js"/>
-  </ItemGroup>
   <Target Name="Build">
     <Csc Sources="@(Compile)"/>
   </Target>
